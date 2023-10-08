@@ -6,3 +6,9 @@ h1 {
 .signup {
     text-align: center;
 }
+
+button {
+    border: solid;
+    background-color: blue;
+    color: white;
+}
