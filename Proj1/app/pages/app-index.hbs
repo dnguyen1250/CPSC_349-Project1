@@ -71,3 +71,38 @@
     {{/for}}
   </div>
 </div>
+
+
+
+<!-- 
+  <div class = "board-container">
+    <div class = "board" array key = "stacks">
+      <ul>
+        {{#for stack in stacks}}
+        <li object key:name = "@innerText"></li>
+        {{/for}}
+      </ul>
+    </div>
+  </div>
+  
+  name is defined in json  
+  recipes.remaketheweb.com
+
+
+<html>
+  <body>
+    <img id = "myGallery" />
+    <button onClick = "doSomething()">Previous</button>
+    <button onClick = "doSomething()">Next</button>
+
+    <script>
+      const images = ["pic1", "pic2", "pic3", "pic4", "pic5", "pic6"];
+      let index = 0;
+      function doSomething(){
+        const img = document.getElementById("myGallery");
+        img.src = `images/${images[index]}.jpg`;
+        if(isNext){
+          index = index + 1;
+        }
+        if 
+      }
