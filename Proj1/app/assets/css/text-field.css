@@ -1,3 +1,7 @@
+.SignUp-header {
+  font-size: 38px;
+}
+
 .Username {
   margin-bottom: 1.5rem;
 }
@@ -6,13 +10,19 @@
   padding: 2px;
 }
 
-#Email {
+.Email {
   margin-bottom: 1.5rem;
+}
+
+#Email {
   padding: 2px;
 }
 
-#Password {
+.Password {
   margin-bottom: 1.5rem;
+}
+
+#Password {
   padding: 2px;
 }
 
