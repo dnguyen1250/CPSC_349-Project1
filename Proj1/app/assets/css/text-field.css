@@ -1,5 +1,6 @@
 .SignUp-header {
-  font-size: 38px;
+  font-size: 35px;
+  font-weight: bold;
 }
 
 .Username {
@@ -26,12 +27,9 @@
   padding: 2px;
 }
 
-
-
-.text-field__input {
-  display: block;
-  width: 100%;
-  padding: 7px 5px 8px;
-  font-size: 16px;
-  line-height: 1.3em;
+.SignUp-button {
+  border: solid;
+  background-color: blue;
+  color: white;
+  padding: 5px;
 }
