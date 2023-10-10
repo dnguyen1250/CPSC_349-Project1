@@ -2,11 +2,21 @@
   margin-bottom: 1.5rem;
 }
 
-.text-field__label-text {
-  display: block;
-  margin-bottom: 0.4rem;
-  font-weight: 500;
+#Username {
+  padding: 2px;
 }
+
+#Email {
+  margin-bottom: 1.5rem;
+  padding: 2px;
+}
+
+#Password {
+  margin-bottom: 1.5rem;
+  padding: 2px;
+}
+
+
 
 .text-field__input {
   display: block;
