@@ -1,19 +1,35 @@
-.text-field {
+.accounts__heading {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.Username {
   margin-bottom: 1.5rem;
-  text-align: left;
 }
-.text-field__label {
-  display: block;
+
+#Username {
+  padding: 2px;
 }
-.text-field__label-text {
-  display: block;
-  margin-bottom: 0.4rem;
-  font-weight: 500;
+
+.Email {
+  margin-bottom: 1.5rem;
 }
-.text-field__input {
-  display: block;
-  width: 100%;
-  padding: 7px 5px 8px;
-  font-size: 16px;
-  line-height: 1.3em;
+
+#Email {
+  padding: 2px;
+}
+
+.Password {
+  margin-bottom: 1.5rem;
+}
+
+#Password {
+  padding: 2px;
+}
+
+.signUpButton {
+  border: solid;
+  background-color: blue;
+  color: white;
+
 }
