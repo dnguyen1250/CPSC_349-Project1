@@ -1,46 +1,19 @@
- {{!-- <div class="accounts">
-  <form class="accounts__form" action="/user/signup" method="post">
-    <div class = "big_box">
-      <div class="accounts__heading">Sign up</div>
-          <div class="medium_box">
-            <label for="Username">Username:</label>
-              <br>
-                <input type="text" name = "username" id = "Username">
-                <br>
-          <label for="Email">Email:</label>
-            <br>
-            <input type="email" name = "email" id="Email" required>
-            <br>
-        <label for = "Password">Password:</label>
-          <br>
-            <input  type="password" name = "password" id ="Password" required>
-            <br>
-            </div>
-             <br>
-        <div class = "small_box">
-           <button class="signUpButton" type="submit">Sign Up</button>
-        </div>
-      </div>
-       </form>
-    </div>
-     
-  --}}
 
   <div class="accounts">
   <form class="accounts__form" action="/user/signup" method="post">
     <div class = "big_box">
       <div class="accounts__heading">Sign up</div>
           <div class="medium_box">
-            <label for="Username">Username:</label>
-                <input type="text" name = "username" id = "Username">
+           <div><label for="Username" class = "Username_Label">Username:</label></div>
+              <input type="text" name = "username" id = "Username">
           </div>
         
       <div class="medium_box">
-       <label for="Email">Email:</label>
+       <div><label for="Email" class ="Email_Label">Email:</label></div>
             <input type="email" name = "email" id="Email" required>
       </div>
     <div class = "medium_box">
-       <label for = "Password">Password:</label>
+      <div><label for = "Password" class = "Password_Label">Password:</label></div>
             <input  type="password" name = "password" id ="Password" required>
       </div>
     <br>
