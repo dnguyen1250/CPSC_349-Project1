@@ -12,10 +12,12 @@
 
 .Username {
   text-align: left;
+  margin-bottom: 1.5rem;
 }
 
 .Email {
   text-align: left;
+  margin-bottom: 1.5rem
 }
 
 .Password {
