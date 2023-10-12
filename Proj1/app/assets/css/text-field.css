@@ -20,36 +20,6 @@
   height: 58.86px;
 }
 
-.Username {
-  margin-bottom: 1.5rem;
-}
-
-#Username {
-  padding: 2px;
-}
-
-::placeholder {
-  text-align: center;
-  color: #52796F;
-
-}
-
-.Email {
-  margin-bottom: 1.5rem;
-}
-
-#Email {
-  padding: 2px;
-}
-
-.Password {
-  margin-bottom: 1.5rem;
-}
-
-#Password {
-  padding: 2px;
-}
-
 .small_box {
   background-color: white;
   width: 100px;
@@ -59,7 +29,7 @@
 .signUpButton {
   color: #52796F;
   background-color: white;
-  width: 100px;
+  width: 80px;
   height: 40px;
 
 }
