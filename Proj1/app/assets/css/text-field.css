@@ -1,7 +1,7 @@
 .big_box {
   background-color: #52796F;
-  width: 560;
-  height: 600;
+  width: px;
+  height: 310px;
 }
 
 .accounts__heading {
@@ -10,8 +10,9 @@
 }
 
 .medium_box {
-  width: 279.32;
-  height: 58.86;
+  width: 279.32px;
+  height: 58.86px;
+  text-align: center;
 }
 
 .Username {
@@ -20,6 +21,12 @@
 
 #Username {
   padding: 2px;
+}
+
+::placeholder {
+  text-align: center;
+  color: #52796F;
+
 }
 
 .Email {
@@ -38,9 +45,17 @@
   padding: 2px;
 }
 
+.small_box {
+  background-color: white;
+  width: 100px;
+  height: 40px;
+}
+
 .signUpButton {
-  border: solid;
-  background-color: blue;
-  color: white;
+  color: #52796F;
+  background-color: white;
+  width: 100px;
+  height: 40px;
+  text-align: center;
 
 }
