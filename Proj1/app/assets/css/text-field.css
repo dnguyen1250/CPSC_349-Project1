@@ -4,13 +4,17 @@
   height: 310px;
 }
 
+/* 
 .accounts__form {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
 .accounts__heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 24px;
   color: white;
 }
@@ -18,12 +22,10 @@
 .medium_box {
   width: 279.32px;
   height: 58.86px;
-}
-
-.medium_box label {
-  width: 100%;
+  text-align: center;
   margin-bottom: 5px;
 }
+
 
 .small_box {
   background-color: white;
@@ -35,6 +37,6 @@
   color: #52796F;
   background-color: white;
   width: 80px;
-  height: 40px;
+  height: 20px;
 
 }
