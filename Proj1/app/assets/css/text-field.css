@@ -4,34 +4,22 @@
   height: 310px;
 }
 
-/* .accounts__form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
-
 .accounts__heading {
   font-size: 24px;
   color: white;
 }
 
-.medium_box {
-  width: 279.32px;
-  height: 58.86px;
+
+.Username {
+  text-align: left;
 }
 
-
-.Username_Label {
-  align-items: left;
-
+.Email {
+  text-align: left;
 }
 
-.Email_Label {
-  align-items: left;
-}
-
-.Password_Label {
-  align-items: left;
+.Password {
+  text-align: left;
 }
 
 .signUpButton {
