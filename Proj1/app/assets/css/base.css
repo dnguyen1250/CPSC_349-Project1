@@ -1,16 +1,14 @@
 /* Basic CSS Reset */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap'); */
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-button {
+/* button {
   display: inline-block;
   border: none;
   margin: 0;
@@ -24,14 +22,14 @@ button {
   -webkit-font-smoothing: inherit;
   -moz-osx-font-smoothing: inherit;
   -webkit-appearance: none;
-}
+} */
 
-button::-moz-focus-inner {
+/* button::-moz-focus-inner {
   border: 0;
   padding: 0;
-}
+} */
 
-.button {
+/* .button {
   display: inline-block;
   height: 36px;
   padding: 0 12px;
@@ -41,17 +39,17 @@ button::-moz-focus-inner {
   text-align: center;
   background-color: #536988;
   border-radius: 5px;
-}
-.button--large {
+} */
+/* .button--large {
   height: 42px;
   padding: 0 16px;
   font-size: 16px;
   line-height: 42px;
-}
-.button--account {
+} */
+/* .button--account {
   margin-top: 1rem;
-}
-.button--plus-square {
+} */
+/* .button--plus-square {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -60,17 +58,18 @@ button::-moz-focus-inner {
   margin-left: auto;
   line-height: normal;
   padding: 0;
-}
-.button--add-stack {
+} */
+/* .button--add-stack {
   margin-left: 1.25rem;
-}
-.button:hover {
+} */
+/* .button:hover {
   cursor: pointer;
   opacity: 0.5;
-}
+} */
 
 body {
   overflow-x: hidden;
   height: 100vh;
   font-family: "Work Sans", sans-serif;
 }
+

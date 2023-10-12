@@ -14,17 +14,20 @@
   <link rel="stylesheet" type="text/css" href="/assets/css/text-field.css">
   <link rel="stylesheet" type="text/css" href="/assets/css/front-page.css">
   <link rel="stylesheet" type="text/css" href="/assets/css/kanban.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/login.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/forgot.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/about.css">
 </head>
 <body>
   <div class="container">
     <div class="nav">
-      <a class="logo" href="{{#if currentUser}}/{{currentUser.details.username}}{{else}}/{{/if}}">
-        <img class="logo__image" src="/assets/images/logo.svg">
-        <span class="logo__text">TaskFellow <span class="logo__version">v1.0</span></span>
+      <a class="home-button" href="{{#if currentUser}}/{{currentUser.details.username}}{{else}}/{{/if}}">
+        CashControl
       </a>
       {{#if currentUser}}
         <div class="nav__user">
           <div>{{currentUser.details.username}}</div>
+          <a class="nav__button" href="/about">About Me</a>
           <a class="nav__button" href="/user/logout">Logout</a>
         </div>
       {{else}}

@@ -1,9 +1,9 @@
-.container {
+/* .container {
   display: flex;
   flex-direction: column;
   position: relative;
   height: 100%;
-}
+} 
 
 .header {
   display: flex;
@@ -150,39 +150,39 @@
 .stack__list::-webkit-scrollbar {
   width: 20px;
   height: 20px;
-}
+}  */
 
 /* Track */
-.board::-webkit-scrollbar-track {
+/* .board::-webkit-scrollbar-track {
   background: #FFF !important;
-}
+} */
 
-.stack__list::-webkit-scrollbar-track {
+/* .stack__list::-webkit-scrollbar-track {
   background: #F2F6FA !important;
   border-radius: 5px;
-}
+} */
 
 /* Handle */
-.board::-webkit-scrollbar-thumb {
+/* .board::-webkit-scrollbar-thumb {
   background: #DAD9DE;
   border-radius: 30px;
   box-sizing: border-box;
   border: 8px solid #FFF;
-}
+} */
 
-.stack__list::-webkit-scrollbar-thumb {
+/* .stack__list::-webkit-scrollbar-thumb {
   background: #DAD9DE;
   border-radius: 30px;
   box-sizing: border-box;
   border: 5px solid #F2F6FA;
-}
+} */
 
 /* Handle on hover */
-.board::-webkit-scrollbar-thumb:hover, .stack__list::-webkit-scrollbar-thumb:hover {
+/* .board::-webkit-scrollbar-thumb:hover, .stack__list::-webkit-scrollbar-thumb:hover {
   background: #DAD9DE;
-}
+} */
 
-@media only screen and (max-width: 658px) {
+/* @media only screen and (max-width: 658px) {
   body {
     overflow: auto;
   }
@@ -204,4 +204,4 @@
   .stack__list {
     overflow-y: auto;
   }
-}
+} */
