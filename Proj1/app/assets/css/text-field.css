@@ -72,11 +72,10 @@
   margin-bottom: 5px;
 }
 
-.small_box {
-  background-color: white;
-  width: 100px;
+.signUpButton {
   color: #52796F;
   background-color: white;
   width: 80px;
-  height: 40px;
+  height: 20px;
+
 }
