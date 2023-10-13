@@ -1,19 +1,35 @@
-.text-field {
-  margin-bottom: 1.5rem;
-  text-align: left;
+.accounts__form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
-.text-field__label {
-  display: block;
+
+.big_box {
+  background-color: #52796F;
+  width: 320px;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.text-field__label-text {
-  display: block;
-  margin-bottom: 0.4rem;
-  font-weight: 500;
+
+h2 {
+  font-size: 24px;
+  color: black;
 }
-.text-field__input {
-  display: block;
-  width: 100%;
-  padding: 7px 5px 8px;
-  font-size: 16px;
-  line-height: 1.3em;
+
+.medium_box {
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.signUpButton {
+  color: #52796F;
+  background-color: white;
+  width: 80px;
+  height: 20px;
 }
