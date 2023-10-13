@@ -1,0 +1,91 @@
+.header-container {
+  text-align: center;
+  padding: 80px 0;
+}
+
+.header-container h1 {
+  font-size: 32px;
+}
+
+.header-container p {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+
+.image-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.features-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.feature-card {
+  background-color: white;
+  border: 1px solid #e7e7e7;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  flex: 1;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+
+.pricing-card {
+  background-color: white;
+  border: 1px solid #e7e7e7;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  flex: 1;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.pricing-card h2 {
+  color: #52796F;
+}
+
+.pricing-card ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.pricing-card ul li {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+
+.faq {
+  text-align: center;
+}
+
+.faq ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.faq ul li {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+
+.footer {
+  background-color: #52796F;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}

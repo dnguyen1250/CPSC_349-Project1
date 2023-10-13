@@ -1,0 +1,37 @@
+.accounts__form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 96px auto;
+  max-width: 320px;
+  text-align: center;
+}
+
+.big_box {
+  background-color: #52796F;
+  width: 320px;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  font-size: 24px;
+  color: black;
+}
+
+.medium_box {
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.signUpButton {
+  color: #52796F;
+  background-color: white;
+  width: 80px;
+  height: 20px;
+}

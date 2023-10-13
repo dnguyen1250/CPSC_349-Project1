@@ -1,27 +1,26 @@
-/* Container styling */
+/* container styling */
 .about-page {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 80%; /* Adjust to your preference */
+  width: 80%; 
   margin: auto;
   padding: 20px;
-  height: 40vh; /* Maintain the same height */
+  height: 40vh; 
 }
 
-/* Heading styles */
+/* heading styles */
 .about-page h1 {
   font-size: 32px;
   margin-bottom: 30px;
 }
-
 .about-page h2 {
   font-size: 24px;
   margin-bottom: 10px;
 }
 
-/* Team member list styles */
+/* team member list */
 .about-page p {
   font-size: 18px;
   margin-bottom: 5px;
