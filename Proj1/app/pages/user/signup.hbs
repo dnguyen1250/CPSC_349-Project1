@@ -1,26 +1,23 @@
- <div class="accounts">
+<div class="accounts">
   <form class="accounts__form" action="/user/signup" method="post">
-    <div class="accounts__heading">Sign up for Frello</div>
+    <div class = "big_box">
+      <h2>Sign up</h2>
+        <br>
+          <div class="medium_box">
+            <label for="Username">Username:</label>
+                <input type="text" name = "username" id = "Username">
+          </div>
+      <div class="medium_box">
+        <label for="Email">Email:</label>
+            <input type="email" name = "email" id="Email" required>
+      </div>
+    <div class = "medium_box">
+        <label for = "Password">Password:</label>
+            <input  type="password" name = "password" id ="Password" required>
+      </div>
     <br>
-    <br>
-    <br>
-    <div class="Username">
-      <label for="Username">Username</label>
-      <input type="text" name = "username" id = "Username" required>
+      <button class="signUpButton" type="submit">Sign Up</button>
     </div>
-    <div class="Email">
-      <label for="Email">Email</label> 
-      <input type="email" name = "email" id="Email" required>
+     </form>
     </div>
-    <div class= "Password">
-      <label for = "Password">Password</label>
-      <input type="password" name = "password" id ="Password" required>
-    </div>
-    <button class="signUpButton" type="submit">Sign up</button>
-    </form>
-    </div>
-
-
  
-
-   

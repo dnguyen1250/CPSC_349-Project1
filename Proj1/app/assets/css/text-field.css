@@ -1,35 +1,35 @@
-.accounts__heading {
-  font-size: 35px;
-  font-weight: bold;
+.accounts__form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
-.Username {
-  margin-bottom: 1.5rem;
+.big_box {
+  background-color: #52796F;
+  width: 320px;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-#Username {
-  padding: 2px;
+h2 {
+  font-size: 24px;
+  color: black;
 }
 
-.Email {
-  margin-bottom: 1.5rem;
-}
-
-#Email {
-  padding: 2px;
-}
-
-.Password {
-  margin-bottom: 1.5rem;
-}
-
-#Password {
-  padding: 2px;
+.medium_box {
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+  margin-bottom: 20px;
 }
 
 .signUpButton {
-  border: solid;
-  background-color: blue;
-  color: white;
-
+  color: #52796F;
+  background-color: white;
+  width: 80px;
+  height: 20px;
 }
