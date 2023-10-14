@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kanban App</title>
+  <title>TitanX</title>
   <link rel="shortcut icon" type="image/png" href="/assets/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="/assets/css/_remake.css">
@@ -14,17 +14,22 @@
   <link rel="stylesheet" type="text/css" href="/assets/css/text-field.css">
   <link rel="stylesheet" type="text/css" href="/assets/css/front-page.css">
   <link rel="stylesheet" type="text/css" href="/assets/css/kanban.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/login.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/forgot.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/about.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/signup.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/index.css">
 </head>
 <body>
   <div class="container">
     <div class="nav">
-      <a class="logo" href="{{#if currentUser}}/{{currentUser.details.username}}{{else}}/{{/if}}">
-        <img class="logo__image" src="/assets/images/logo.svg">
-        <span class="logo__text">TaskFellow <span class="logo__version">v1.0</span></span>
+      <a class="home-button" href="{{#if currentUser}}/{{currentUser.details.username}}{{else}}/{{/if}}">
+        TitanX
       </a>
       {{#if currentUser}}
         <div class="nav__user">
-          <div>{{currentUser.details.username}}</div>
+          <a class="nav__button" href="/{{currentUser.details.username}}">{{currentUser.details.username}}</a>
+          <a class="nav__button" href="/about">About</a>
           <a class="nav__button" href="/user/logout">Logout</a>
         </div>
       {{else}}

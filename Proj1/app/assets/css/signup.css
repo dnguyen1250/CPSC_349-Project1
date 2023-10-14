@@ -1,0 +1,55 @@
+.accounts__form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15vh auto;
+  max-width: 350px;
+  text-align: center;
+}
+
+.big_box {
+  background-color: #84A98C;
+  border-radius: 10px;
+  width: 350px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: black;
+}
+
+label {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+input{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.medium_box {
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.signUpButton {
+  padding: 10px 20px;
+  background-color: #f9f9f9;
+  color: #52796F;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: fit-content; 
+}

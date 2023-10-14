@@ -1,73 +1,43 @@
-<div class="header">
-  <div 
+
+<div  class="header">
+  <div border="1"
     class="header__text"
     object
-    key:board-heading="@innerText"
-    default:board-heading="My Projects"
-    edit:board-heading:without-remove
-  >{{boardHeading}}</div>
-  <button 
-    class="button button--add-stack"
-    new:stack
-  >Add stack</button>
-</div>
-<div class="board-container">
-  <div 
-    class="board"
-    array
-    key="stacks"
-    sortable="stacks"
-  >
-    {{#for stack in stacks}}
-      <div 
-        class="stack"
-        object
-        key:stack-heading="@search"
-        default:stack-heading="A Project"
-      >
-        <div class="stack__top">
-          <p 
-            class="stack__text"
-            target:stack-heading="@innerText"
-            edit:stack-heading
-          >{{default stack.stackHeading "New stack item"}}</p>
-          <button 
-            class="button button--plus-square"
-            new:card
-          >
-            <img class="stack__new-icon" src="/assets/images/new.svg">
-          </button>
-        </div>
-        <div 
-          class="stack__list"
-          key="cards"
-          array
-          sortable="cards"
-        >
-          {{#for card in stack.cards}}
-            <div 
-              class="card"
-              object
-              key:card-text="@search"
-              edit:card-text
-            >
-              <p 
-                class="card__text"
-                target:card-text="@innerText"
-              >{{default card.cardText "New card item"}}</p>
-              <img class="card__drag" src="/assets/images/drag.svg">
-            </div>
-          {{/for}}
-        </div>
-        <div class="stack__add-card-container">
-          <button 
-            class="stack__add-card"
-            new:card
-          >
-            <img class="stack__add-card-icon" src="/assets/images/plus.svg"><p>Add card</p>
-          </button>
-        </div>
+    key:heading="@innerText"
+    default:ExpName="My Expenses"
+  >{{heading}}</div>
+  <div class="table">
+      <div class="table-header">
+          <div class="table-row-div"><p class="table-header-item">Expense</p></div>
+          <div class="table-row-div"><p class="table-header-item">Category</p></div>
+          <div class="table-row-div"><p class="table-header-item">Amount</p></div>
+          <div class="table-row-div"><p class="table-header-item">Action</p></div>
       </div>
-    {{/for}}
+      <div 
+        array
+        key="expenses"
+      >
+      {{#for expense in expenses}}
+      <div 
+        class="table-row"
+        object
+        key:exp-name="@search"
+        key:exp-category="@search"
+        key:exp-amount="@search"
+        >
+          <div class="table-row-div"><p target:exp-name="@innerText" class="table-row-item">{{default expense.expName "New Expense"}}</p></div>
+          <div class="table-row-div"><p target:exp-category="@innerText" class="table-row-item">{{default expense.expCategory "New Category"}}</p></div>
+          <div class="table-row-div"><p target:exp-amount="@innerText" class="table-row-item">{{default expense.expAmount "0.00"}}</p></div>
+          <div class="table-row-div"><div class="button-container">
+          <button class="delete-button"  remove>Delete</button>
+          <button class="edit-button"          edit:exp-name
+        edit:exp-category
+        edit:exp-amount>edit</button>
+          </div></div>
+        </div>
+        {{/for}}
+        </div>
+        <button class="add-button" new:expense>Add Expense</button>
+    </div>
   </div>
 </div>
