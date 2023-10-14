@@ -1,3 +1,11 @@
+.main-container{
+  padding: 0 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .header-container {
   text-align: center;
   padding: 80px 0;
@@ -13,14 +21,9 @@
 }
 
 
-.image-container {
-  text-align: center;
-  margin-top: 20px;
-}
-
-.image-container img {
-  max-width: 100%;
-  height: auto;
+img{
+  width: 600px;
+  object-fit: cover;
 }
 
 
@@ -45,12 +48,14 @@
 .pricing-card {
   background-color: white;
   border: 1px solid #e7e7e7;
+  width: 500px;
   border-radius: 5px;
   padding: 20px;
   margin: 10px;
   flex: 1;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .pricing-card h2 {

@@ -2,15 +2,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 96px auto;
-  max-width: 320px;
+  margin: 15vh auto;
+  max-width: 350px;
   text-align: center;
 }
 
 .big_box {
-  background-color: #52796F;
-  width: 320px;
-  height: 320px;
+  background-color: #84A98C;
+  border-radius: 10px;
+  width: 350px;
+  height: 400px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -18,8 +19,22 @@
 }
 
 h2 {
+  margin-bottom: 20px;
   font-size: 24px;
   color: black;
+}
+
+label {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+input{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
 .medium_box {
@@ -30,8 +45,11 @@ h2 {
 }
 
 .signUpButton {
+  padding: 10px 20px;
+  background-color: #f9f9f9;
   color: #52796F;
-  background-color: white;
-  width: 80px;
-  height: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: fit-content; 
 }

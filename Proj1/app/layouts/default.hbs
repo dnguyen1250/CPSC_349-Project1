@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kanban App</title>
+  <title>TitanX</title>
   <link rel="shortcut icon" type="image/png" href="/assets/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="/assets/css/_remake.css">
@@ -24,12 +24,12 @@
   <div class="container">
     <div class="nav">
       <a class="home-button" href="{{#if currentUser}}/{{currentUser.details.username}}{{else}}/{{/if}}">
-        CashControl
+        TitanX
       </a>
       {{#if currentUser}}
         <div class="nav__user">
-          <div>{{currentUser.details.username}}</div>
-          <a class="nav__button" href="/about">About Me</a>
+          <a class="nav__button" href="/{{currentUser.details.username}}">{{currentUser.details.username}}</a>
+          <a class="nav__button" href="/about">About</a>
           <a class="nav__button" href="/user/logout">Logout</a>
         </div>
       {{else}}
